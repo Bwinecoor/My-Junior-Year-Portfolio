@@ -1,0 +1,212 @@
+a {
+    color: black;
+}
+.activenav {
+  background-color: #778DA9;
+  border: 2px solid #1B263B;
+}
+.nav-bg {
+  background-color: #778DA9;
+  border-top: 5px solid #415A77;
+  border-bottom: 5px solid #;
+}
+.title {
+  border: 5px solid black;
+  text-align: center;
+  display: inline-flex;
+  border-radius: 15px;
+}
+
+.summary {
+  border: 5px solid #778DA9;
+  border-radius: 20px;
+  text-align: center;
+  display: inline-flex;
+}
+.op {
+  background-color: #778DA9;
+  border: 5px solid #415A77;
+  border-radius: 25px;
+  padding: 10px;
+}
+.phimg {
+  width: 250px;
+  height: 250px;
+}
+
+.customborder {
+  background-color: #778DA9;
+  border: 5px solid #415A77;
+  border-radius: 25px;
+  margin: auto;
+  padding: 10px;
+}
+.customborder2 {
+  background-color: #778DA9;
+  border: 5px solid #415A77;
+  border-radius: 25px;
+  padding: 10px;
+}
+.customborder3 {
+  background-color: #778DA9;
+  border: 5px solid #415A77;
+  border-radius: 25px;
+  margin: auto;
+}
+.customborder4 {
+  background-color: #f5f5f5;
+  border: 5px solid #415A77;
+  border-radius: 25px;
+  margin: auto;
+  padding: 10px;
+}
+.imgborder {
+  border: 3px solid #415A77;
+  width: 250px;
+  height: 250px;
+}
+.carouselimg {
+  border-radius: 25px;
+}
+.aboutcimg {
+    height: 490px;
+}
+.carouselwh {
+  height: 500px;
+}
+.jobclub {
+  margin-top: 100px;
+}
+.googlefont {
+  font-family: 'Bebas Neue', cursive;
+}
+.googlefont2 {
+  font-family: 'Kanit', sans-serif;
+}
+.mright {
+  margin-right: 0px;
+}
+.mleft {
+  margin-left: 0px;
+}
+.navh {
+  border: 2px solid #1B263B;
+  border-radius: 25px;
+}
+.navh:hover {
+  background-color: #778DA9;
+  border: 2px solid #1B263B;
+  border-radius: 25px;
+}
+.bg-custom {
+  background-color: #778DA9;
+  width:200px;
+  margin: auto;
+  border: 5px solid #415A77;
+  border-radius: 25px;
+}
+iframe {
+  border-radius: 25px;
+}
+a:link {
+  text-decoration: none;
+}
+.bg-custom-button:hover {
+  background-color: #a7c4ec;
+  width:200px;
+  margin: auto;
+  border: 5px solid #415A77;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+.bg-custom-button {
+  background-color: #778DA9;
+  width:200px;
+  margin: auto;
+  border: 5px solid #415A77;
+  border-radius: 25px;
+}
+.imgborder2 {
+  border: 4px solid #415A77;
+  border-radius: 25px;
+}
+
+.sitelogos {
+  width: 50px;
+  height: 50px;
+}
+.siteimg {
+  width: 384px;
+  height: 184.6px;
+  border: 3px solid #415A77;
+  border-radius: 25px;
+}
+.sml{
+  margin-left: 70%;
+}
+.smr {
+  margin-right: 70%;
+}
+.siteimg2 {
+  width: 5px;
+}
+.sidenav2 {
+  border: 5px solid #415A77;
+  border-radius: 25px;
+  background-color: #778DA9;
+}
+w3-sidebar {
+  border-right: 5px;
+  width: 50px;
+}
+.chr {
+  height: 5px;
+  background-color: #415A77;
+}
+.h1size {
+  font-size: 75px;
+}
+.amsize {
+  font-size: 20px;
+}
+.tha:hover {
+  background-color: #a7c4ec;
+  transition: 0.3s;
+  border-radius: 25px;
+  border: 5px solid #415A77;
+}
+-------------------------------------------------------------
+* {box-sizing: border-box}
+
+.skilllevel {
+  width: 100%;
+  background-color: #778DA9;
+  border: 5px solid #415A77;
+  border-radius: 15px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  padding-right: 1%;
+}
+
+.html {width: 82.50%; background-color: #85a4c1; border-radius: 15px;}
+.css {width: 77%; background-color: #85a4c1; border-radius: 15px;}
+.js {width: 45%; background-color: #85a4c1; border-radius: 15px;}
+
+.html:hover {
+  transition: .5s;
+  background-color: #a7c4ec;
+}
+.css:hover {
+  transition: .5s;
+  background-color: #a7c4ec;
+}
+.js:hover {
+  transition: .5s;
+  background-color: #a7c4ec;
+}
+-------------------------------------------------------------

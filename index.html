@@ -1,0 +1,593 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@300&display=swap" rel="stylesheet">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Brandon's Portfolio</title>
+  <style>
+    body {
+      background-image: url(background.gif);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      font-family: "Lato", sans-serif;
+    }
+
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #778DA9;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+      border-right: 7.5px solid #415A77;
+    }
+
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #1f1f1f;
+      display: block;
+      transition: 0.3s;
+    }
+
+    .sidenav a:hover {
+      background-color: #95afd0;
+    }
+
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+
+    @media screen and (max-height: 450px) {
+      .sidenav {
+        padding-top: 15px;
+      }
+
+      .sidenav a {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="navbar nav-bg sticky-top">
+    <div class="container-fluid">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><svg xmlns="http://www.w3.org/2000/svg"
+            width="35" height="35" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+            <path
+              d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
+          </svg></a>
+        <a href="#home">Home/About Me</a>
+        <a href="#resume">Resume</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contactinfo">Contact Info</a>
+      </div>
+
+
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="sticky-top"><svg
+          xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-list"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+        </svg></span>
+
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+      </script>
+      <h1 class="text-dark mx-auto googlefont" href="#">Brandon Winecoor WDPP Portfolio</h1>
+    </div>
+  </div>
+
+
+
+  <div>
+    <section id="home">
+      <br>
+      <br>
+      <br>
+      <h1 class="text-center googlefont text-decoration-underline h1size">Home Page</h1>
+
+
+      <div id="carouselExampleDark" class="carousel slide customborder3 col-sm-4" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="htmlimg.png" class="d-block w-100 phimg carouselimg" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="text-center googlefont2 bg-custom text-dark tha">HTML</h3>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="cssimg.png" class="d-block w-100 phimg carouselimg" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="text-center googlefont2 bg-custom text-dark tha">CSS</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="javascriptimg.png" class="d-block w-100 phimg carouselimg" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="text-center googlefont2 bg-custom text-dark tha">JavaScript</h3>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <br>
+      <div class="mx-auto">
+        <div class="text-center customborder col-sm-6">
+          <div class="tha">
+            <h2 class=" googlefont  text-decoration-underline">Summary of the Site</h2>
+            <p class=" googlefont2">This site is my Portfolio. Here you can see different pages that include different
+              things
+              about me, what I do,
+              and who I am. This site includes my resume, my skills, projects that I've worked on, things about me, and
+              my
+              contact information.</p>
+          </div>
+          <div class="tha">
+            <h2 class="googlefont  text-decoration-underline">About Me</h2>
+            <p class="googlefont2">My name is Brandon Winecoor. I'm 16 years old and live in Morganville, NJ. I am
+              in my 2nd year of the WDPP and am currently learning Javascript. Some things I like to do are play video
+              games, hang out with friends, watch movies/shows, etc. Some fun facts about me are that I'm Russian and
+              Jewish, my favorite color is blue, and my birthday is on July 19. </p>
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="container text-center op">
+        <div class="row row-cols-1">
+          <div class="col googlefont text-decoration-underline">
+            <h2>Old Portfolio</h3>
+          </div>
+          <hr>
+          <div class="col"><a href="https://brandonwinecoorcodehsme-2858744.codehs.me/index.html" target="blank"><img
+                src="OP 1.png" class="imgborder"></a><a
+              href="https://brandonwinecoorcodehsme-2858744.codehs.me/about.html" target="blank"><img src="OP 2.png"
+                class="imgborder"></a><a href="https://brandonwinecoorcodehsme-2858744.codehs.me/pastprojects.html"
+              target="blank"><img src="OP 3.png" class="imgborder"></a><a
+              href="https://brandonwinecoorcodehsme-2858744.codehs.me/help.html" target="blank"><img src="OP 4.png"
+                class="imgborder"></a></div>
+          <hr>
+          <div class="col googlefont2 tha">My old portfolio from Level 1 of Web Design. Basically an older
+            version for the
+            comparison of how much I have learned over my time in the WDPP. Each image has a link to its own part of
+            the
+            website.
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+    </section>
+    <br>
+
+    <section id="resume">
+      <br>
+      <br>
+      <br>
+
+      <h1 class="text-center googlefont text-decoration-underline h1size">Resume</h1>
+      <br>
+      <div class="row customborder col-md-10 mx-auto">
+        <h1 class="googlefont text-center text-decoration-underline">Brandon Winecoor Resume</h2>
+          <hr>
+          <div class="tha">
+            <h1 class="googlefont2 text-center text-decoration-underline">Profile</h2>
+              <h5 class="googlefont2 text-center">Sixteen year old high school student who is seeking a job in web
+                design.
+                Knows HTML and CSS and is currently learning JavaScript.</h4>
+          </div>
+          <hr>
+          <br>
+
+          <div class="col-md-3 mx-auto">
+            <div class="text-center tha">
+              <h2 class="googlefont2 text-decoration-underline">Employment History</h2>
+              <h5 class="googlefont2"><b>Junior Counselor/Bus Counselor</b></h5>
+              <p class="googlefont2">Junior Counselor job included watching after kids, taking them to activities,
+                making
+                sure
+                they're safe,
+                and
+                being friendly to them. As a bus counselor I took attendance, made sure
+                everyone had
+                their
+                seatbelts on, and made sure every kid got back on the bus at the end of the
+                day.</p>
+            </div>
+          </div>
+          <div class="col-md-3 mx-auto">
+            <div class="text-center tha">
+              <h2 class="googlefont2 text-decoration-underline">Volunteer</h2>
+              <h5 class="googlefont2"><b>Friendship Circle</b></h5>
+              <p class="googlefont2">When I used to go to Friendship Circle I helped a buddy witha disability. It
+                was 2
+                hours
+                every Sunday, and during those two hours, we did different activities, such as music, dance,
+                cooking/baking,
+                arts and crafts, and play time.</p>
+            </div>
+          </div>
+          <div class="col-md-3 mx-auto">
+            <div class="text-center tha">
+              <h2 class="googlefont2 text-decoration-underline">Clubs</h2>
+              <h5 class="googlefont2"><b>Yearbook Club</b></h5>
+              <p class="googlefont2">I'm currently in my first year of yearbook club where I am trying to find
+                creative
+                ways
+                to design the pages of the yearbook that I am assigned. Meetings are every Thursday and we make
+                outlines
+                of
+                the page and put in whatever text and photos we need.</p>
+            </div>
+          </div>
+          <hr>
+          <div class="mx-auto">
+            <h5 class="googlefont bg-custom-button text-center text-dark"><a
+                href="https://portfolio.brandonw13.repl.co/myresume.png" target="blank" class="text-dark googlefont2"
+                download>Download Resume</a></h5>
+          </div>
+      </div>
+
+
+
+    </section>
+    <br>
+    <section id="skills">
+      <br>
+      <br>
+      <br>
+
+      <div class="row text-center">
+        <div class="col-lg-12">
+          <div class="card-body">
+            <div class="container-fluid ml-3 mr-3">
+              <br>
+              <div class="row">
+                <div class="col">
+                  <h1 class="text-center googlefont text-decoration-underline h1size">Skills</h1>
+                </div>
+              </div>
+
+              <br>
+
+              <div class="skilllevel">
+                <div class="skills html"><img src="htmllogo.png" class="skillimg"><b>82.5%</b></div>
+              </div>
+
+              <div class="skilllevel">
+                <div class="skills css"><img src="csslogo.png" class="skillimg"><b>77%</b></div>
+              </div>
+
+              <div class="skilllevel">
+                <div class="skills js"><img src="javascriptlogo.png" class="skillimg"><b>45%</b></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+
+      <div class="row text-center mx-auto">
+        <div class="col-lg-4">
+          <div class="customborder">
+            <div class="card-body tha">
+              <h3 class="card-title text-center googlefont text-decoration-underline">What is HTML?</h3>
+              <p class="card-text googlefont2">Hypertext Markup Language, a standardized system for tagging text
+                files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.</p>
+              <h5 class="googlefont bg-custom-button text-center text-dark"><a
+                  href="https://www.google.com/search?q=What+is+HTML%3F&rlz=1C1GCEB_enUS1023US1023&oq=What+is+HTML%3F&aqs=chrome..69i57.176j0j7&sourceid=chrome&ie=UTF-8"
+                  target="blank" class="text-dark googlefont2">Google Definition</a></h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="customborder">
+            <div class="card-body tha">
+              <h3 class="card-title text-center googlefont text-decoration-underline">What is CSS?</h3>
+              <p class="card-text googlefont2">CSS (Cascading Style Sheets) is used to style and layout web pages —
+                for example, to alter the font, color, size, and spacing of your content, split it into multiple
+                columns,
+                or add
+                animations and other decorative features.</p>
+              <h5 class="googlefont bg-custom-button text-center text-dark"><a
+                  href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="blank"
+                  class="text-dark googlefont2">developer.mozilla
+                  Definition</a></h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="customborder">
+            <div class="card-body tha">
+              <h3 class="card-title text-center googlefont text-decoration-underline">What is JavaScript?</h3>
+              <p class="card-text googlefont2">An object-oriented computer programming language commonly used to
+                create interactive effects within web browsers.</p>
+              <h5 class="googlefont bg-custom-button text-center text-dark"><a
+                  href="https://www.google.com/search?q=What+is+javascript%3F&rlz=1C1GCEB_enUS1023US1023&ei=Nad7Y8HILLSv5NoPrN-J8Ao&ved=0ahUKEwiBt67h2L_7AhW0F1kFHaxvAq4Q4dUDCBE&uact=5&oq=What+is+javascript%3F&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQR0oECEEYAEoECEYYAFDNBlj4D2CHEWgAcAJ4AYABAIgBAJIBAJgBAKABAcgBCMABAQ&sclient=gws-wiz-serp"
+                  target="blank" class="text-dark googlefont2">Google Definition</a></h5>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <br>
+
+      <h1 class="text-center googlefont text-decoration-underline h1size">Coding Sites I've Used</h1>
+
+      <br>
+
+      <div class="row text-center mx-auto">
+        <div class="col-lg-4">
+          <div class="customborder">
+            <div class="card-body">
+              <h3 class="card-title text-center googlefont">CodeHS</h3>
+              <img src="codehslogo.png" class="sitelogos">
+              <h3 class="googlefont bg-custom-button text-center text-dark"><a href="https://codehs.com/" target="blank"
+                  class="text-dark">Visit</a></h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="customborder">
+            <div class="card-body">
+              <h3 class="card-title text-center googlefont">Code Sandbox</h5>
+                <img src="codesandboxlogo.png" class="sitelogos">
+                <h5 class="googlefont bg-custom-button text-center text-dark"><a
+                    href="https://codesandbox.io/signin?continue=/dashboard/recent" target="blank"
+                    class="text-dark">Visit</a>
+                </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="customborder">
+            <div class="card-body">
+              <h3 class="card-title text-center googlefont">Atom.io</h5>
+                <img src="atom.io logo.png" class="sitelogos">
+                <h5 class="googlefont bg-custom-button text-center text-dark"><a href="https://atom.io/" target="blank"
+                    class="text-dark">Visit</a></h5>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <br>
+
+      <div class="row text-center mx-auto">
+        <div class="col-lg-6">
+          <div class="customborder">
+            <div class="card-body">
+              <h3 class="card-title text-center googlefont">Replit</h5>
+                <img src="replitlogo.png" class="sitelogos">
+                <h5 class="googlefont bg-custom-button text-center text-dark"><a href="https://replit.com/~"
+                    target="blank" class="text-dark">Visit</a></h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="customborder">
+            <div class="card-body">
+              <h3 class="card-title text-center googlefont">Code Academy</h5>
+                <img src="codecademylogo.png" class="sitelogos">
+                <h5 class="googlefont bg-custom-button text-center text-dark"><a
+                    href="https://www.codecademy.com/catalog" target="blank" class="text-dark">Visit</a></h5>
+            </div>
+          </div>
+        </div>
+
+    </section>
+    <br>
+    <section id="projects">
+      <br>
+      <br>
+      <br>
+
+      <h1 class="text-center googlefont text-decoration-underline h1size">Projects</h1>
+
+
+
+      <br>
+
+      <div class="row mx-3">
+        <div class="col-md-4">
+          <div class="text-center customborder inline">
+            <div class="text-decoration-underline googlefont">
+              <h3>Joker Website</h3>
+            </div>
+            <img src="Joker website.png" class="siteimg w-100 googlefont2">
+            <div>
+              <p class="googlefont2 tha">This website is a summary of the most famous things that The
+                Joker has done and is
+                known
+                for. It includes summaries of different versions of him, his origin, some of the times that he died, and
+                his
+                famous accomplishments.</p>
+            </div>
+            <h5 class="googlefont bg-custom-button text-center"><a href="https://joker-website.brandonw13.repl.co/"
+                target="blank" class="text-dark">Joker Website</a></h5>
+          </div>
+        </div>
+        <br>
+        <div class="col-md-4">
+          <div class="text-center customborder inline">
+            <div class="text-decoration-underline googlefont">
+              <h3>Jamaica Website</h3>
+            </div>
+            <img src="jamaica site.png" class="siteimg  w-100 googlefont2">
+            <div>
+              <p class="googlefont2 tha">This website is an informational site about Jamaica and what you
+                can do there on
+                vacation. The site
+                includes a page about airport information, taxi, and weather, a page for hotels, a page for restaurants,
+                and
+                a
+                page about landmarks.</p>
+            </div>
+            <h5 class="googlefont bg-custom-button text-center text-dark"><a href="https://981xps.csb.app/"
+                target="blank" class="text-dark">Jamaica Website</p></a></h5>
+          </div>
+        </div>
+        <br>
+        <div class="col-md-4">
+          <div class="text-center customborder inline">
+            <div class="text-decoration-underline googlefont">
+              <h3>Colors and Computers Website</h3>
+            </div>
+            <img src="Colors Website.png" class="siteimg  w-100 googlefont2">
+            <div>
+              <p class="googlefont2 tha">This website is about the different colors and objects in my
+                school that are those
+                colors. The site
+                includes information, summaries and the RGB's of each color.</p>
+            </div>
+            <h5 class="googlefont bg-custom-button text-center text-dark"><a href="https://20q1h0.csb.app/#black-s"
+                target="blank" class="text-dark">Colors and Computers Website</p></a></h5>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <div class="row mx-1">
+        <div class="col-md-6 mx-auto">
+          <div class="text-center customborder inline">
+            <div class="text-decoration-underline googlefont">
+              <h3>Halloween Animation</h3>
+            </div>
+            <img src="halloween animation.png" class="siteimg  w-50 googlefont2">
+            <div>
+              <p class="googlefont2 tha">This website was just a little experiment with CSS animations to
+                see how creative I
+                could get with
+                the
+                given animations. The site includes a white spider that goes away every time you put your mouse into the
+                site
+                and a green/zombie ghost.</p>
+            </div>
+            <h5 class="googlefont bg-custom-button text-center text-dark"><a
+                href="https://halloween-animation.brandonw13.repl.co/" target="blank" class="text-dark">Halloween
+                Animation</a></h5>
+          </div>
+        </div>
+
+        <br>
+        <div class="col-md-6 mx-auto">
+          <div class="text-center customborder inline">
+            <div class="text-decoration-underline googlefont">
+              <h3>Pawfee Spot</h3>
+            </div>
+            <img src="Pawfee Spot Website.png" class="siteimg w-50 googlefont2">
+            <div>
+              <p class="googlefont2 tha">This website is about a fake restaurant for dogs. It has a home
+                page with a summary
+                of the site, and
+                a
+                page
+                for LCH, drinks, food, sweets, and specials. Each page also has a custom-made menu using Canva and a
+                button
+                to
+                go to the next page and then eventually, home.</p>
+            </div>
+            <h5 class="googlefont bg-custom-button text-center text-dark"><a
+                href="https://pawfee-spot-3513044.codehs.me/index.html" target="blank" class="text-dark">Pawfee
+                Spot</a>
+            </h5>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </section>
+    <br>
+    <section id="contactinfo">
+      <br>
+      <br>
+      <br>
+      <div class="nav-bg">
+        <br>
+        <div class="container-fluid">
+          <h3 class="mx-auto text-center googlefont text-decoration-underline h1size">Contact Info</h3>
+        </div>
+        <div class="container-fluid">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-sm-3 customborder googlefont2 "><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                  height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                  <path
+                    d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                </svg><a href='tel:7327723185' class="text-dark"> 732-772-3426</a></div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3 customborder googlefont2 "><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                  height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                  <path
+                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                </svg><a href="mailto:brandonwinecoor@gmail.com" class="text-dark"> 524Bwinecoor@frhsd.com</a>
+              </div>
+            </div>
+          </div>
+          <br>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
