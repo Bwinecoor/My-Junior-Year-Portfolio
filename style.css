@@ -1,12 +1,12 @@
 a {
-    color: black;
+    color: #eeeeee;
 }
 .activenav {
-  background-color: #86A5D9;
+  background-color: #CD2828;
   border: 2px solid #1B263B;
 }
 .nav-bg {
-  background-color: #86A5D9;
+  background-color: #CD2828;
   border-top: 5px solid #202A25;
   border-bottom: 5px solid #;
 }
@@ -18,13 +18,13 @@ a {
 }
 
 .summary {
-  border: 5px solid #86A5D9;
+  border: 5px solid #CD2828;
   border-radius: 20px;
   text-align: center;
   display: inline-flex;
 }
 .op {
-  background-color: #86A5D9;
+  background-color: #CD2828;
   border: 5px solid #202A25;
   border-radius: 25px;
   padding: 10px;
@@ -35,20 +35,20 @@ a {
 }
 
 .customborder {
-  background-color: #86A5D9;
+  background-color: #CD2828;
   border: 5px solid #202A25;
   border-radius: 25px;
   margin: auto;
   padding: 10px;
 }
 .customborder2 {
-  background-color: #86A5D9;
+  background-color: #CD2828;
   border: 5px solid #202A25;
   border-radius: 25px;
   padding: 10px;
 }
 .customborder3 {
-  background-color: #86A5D9;
+  background-color: #CD2828;
   border: 5px solid #202A25;
   border-radius: 25px;
   margin: auto;
@@ -79,9 +79,11 @@ a {
 }
 .googlefont {
   font-family: 'Bebas Neue', cursive;
+  color: #eeeeee;
 }
 .googlefont2 {
   font-family: 'Kanit', sans-serif;
+  color: #eeeeee;
 }
 .mright {
   margin-right: 0px;
@@ -94,12 +96,12 @@ a {
   border-radius: 25px;
 }
 .navh:hover {
-  background-color: #86A5D9;
+  background-color: #CD2828;
   border: 2px solid #1B263B;
   border-radius: 25px;
 }
 .bg-custom {
-  background-color: #86A5D9;
+  background-color: #CD2828;
   width:200px;
   margin: auto;
   border: 5px solid #202A25;
@@ -112,7 +114,7 @@ a:link {
   text-decoration: none;
 }
 .bg-custom-button:hover {
-  background-color: #ccdcfa;
+  background-color: #ff3e3e;
   width:200px;
   margin: auto;
   border: 5px solid #202A25;
@@ -120,7 +122,7 @@ a:link {
   transition: 0.3s;
 }
 .bg-custom-button {
-  background-color: #86A5D9;
+  background-color: #CD2828;
   width:200px;
   margin: auto;
   border: 5px solid #202A25;
@@ -153,11 +155,7 @@ a:link {
 .sidenav2 {
   border: 5px solid #202A25;
   border-radius: 25px;
-  background-color: #86A5D9;
-}
-w3-sidebar {
-  border-right: 5px;
-  width: 50px;
+  background-color: #CD2828;
 }
 .chr {
   height: 5px;
@@ -170,17 +168,26 @@ w3-sidebar {
   font-size: 20px;
 }
 .tha:hover {
-  background-color: #ccdcfa;
+  background-color: #ff3e3e;
   transition: 0.3s;
   border-radius: 25px;
   border: 5px solid #202A25;
+}
+.bg-custom-button2 {
+  background-color: #CD2828;
+  width:250px;
+  margin: auto;
+  border: 5px solid #202A25;
+  border-radius: 25px;
+  color: #eeeeee;
+  font-size: 50px;
 }
 -------------------------------------------------------------
 * {box-sizing: border-box}
 
 .skilllevel {
   width: 100%;
-  background-color: #86A5D9;
+  background-color: #CD2828;
   border: 5px solid #202A25;
   border-radius: 15px;
 }
@@ -189,24 +196,24 @@ w3-sidebar {
   text-align: right;
   padding-top: 10px;
   padding-bottom: 10px;
-  color: white;
+  color: #eeeeee;
   padding-right: 1%;
 }
 
-.html {width: 82.50%; background-color: #a7c1f1; border-radius: 15px;}
-.css {width: 77%; background-color: #a7c1f1; border-radius: 15px;}
-.js {width: 45%; background-color: #a7c1f1; border-radius: 15px;}
+.html {width: 82.50%; background-color: #942323; border-radius: 15px;}
+.css {width: 77%; background-color: #942323; border-radius: 15px;}
+.js {width: 45%; background-color: #942323; border-radius: 15px;}
 
 .html:hover {
   transition: .5s;
-  background-color: #ccdcfa;
+  background-color: #be2f2f;
 }
 .css:hover {
   transition: .5s;
-  background-color: #ccdcfa;
+  background-color: #be2f2f;
 }
 .js:hover {
   transition: .5s;
-  background-color: #ccdcfa;
+  background-color: #be2f2f;
 }
 -------------------------------------------------------------
